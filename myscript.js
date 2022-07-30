@@ -8,7 +8,7 @@ fetch("https://fakestoreapi.com/products")
           .then((dataComplete) => {
                     let data1 = ""; //taking empty variable
                     dataComplete.map((values) => {
-                              data1 += `<div class="card col-lg-4 d-flex justify-content-end "> <div class="card-body">
+                              data1 += `<div class="card col-lg-4 d-flex justify-content-center"> <div class="card-body">
                                  <h4 class=" title card-title text-center" id="heading">${values.title}</h4>
                                     <img class="card-img flex: wrap" src=${values.image} alt="Card image" class="images">
                                      <p class="card-text">${values.description}</p>
