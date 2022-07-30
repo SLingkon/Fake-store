@@ -1,0 +1,7 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+.price, .catagory{
+    text-align: center!important;
+    font-weight: bold;
+}
